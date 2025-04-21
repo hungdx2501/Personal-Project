@@ -1,0 +1,25 @@
+/* All odd numbered elements: a light red/pink background, and a list of fonts containing Verdana and DejaVu Sans with sans-serif as a fallback
+The second element: blue text and a font size of 36px
+The third element: in addition to the styles for all odd numbered elements, add a font size of 24px
+The fourth element: a light green background, a font size of 24px, and bold */
+
+.red {
+    background-color: pink;
+}
+
+#obj2 {
+    color: blue;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+#obj3 {
+    font-size: 25px;
+    font-weight:600;
+}
+
+#obj4 {
+    background-color: lightgreen;
+    font-weight: 700;
+    font-size: 20px;
+}
