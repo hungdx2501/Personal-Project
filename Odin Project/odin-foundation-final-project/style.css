@@ -1,73 +1,212 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
-
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap");
 body {
-    height: 100vh;
-    overflow: hidden;
-    display: flex;
-    flex-direction: column;
-    font-family: Roboto;
-    margin: 0;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  font-family: Roboto;
+  margin: 0;
+}
+
+body::-webkit-scrollbar {
+  display: none; /* Chrome, Safari */
 }
 
 p {
-    margin: 0;
-    padding: 0;
+  margin: 0;
+  padding: 0;
 }
 
 /* header */
 
 li {
-    list-style: none;
+  list-style: none;
 }
 .header {
-    display: flex;
-    justify-content: space-between;
-    background-color: #1F2937;
-    color: white;
-    padding: 10px 30px;
+  display: flex;
+  justify-content: space-around;
+  background-color: #1f2937;
+  color: white;
+  padding: 10px 30px;
 }
 
 .header-left {
-    font-size: 24px;
-    color: #F9FAF8;
-    font-weight: 700;
+  font-size: 24px;
+  color: #f9faf8;
+  font-weight: 700;
 }
 
 .header-right-sub {
-    display: flex;
-    gap: 10px;
-    font-weight: 300;
-    color: #BABEC4;
-    font-size: 14px;
+  display: flex;
+  gap: 10px;
+  font-weight: 300;
+  color: #babec4;
+  font-size: 14px;
 }
 
 /* container */
 
 .sub1-title {
-    font-size: 48px;
-    color: white;
-    font-weight: bold;
+  font-size: 48px;
+  color: white;
+  font-weight: bold;
 }
 
 .sub-container1 {
-    background-color: #1F2937;
-    padding: 60px 30px;
-    display: flex;
-    gap: 50px;
-}
-
-.sub-left1 {
-    width: 50%;
+  background-color: #1f2937;
+  padding: 0px 30px;
+  display: flex;
+  padding-top: 50px;
+  padding-bottom: 100px;
+  justify-content: space-around;
+  gap: 50px;
 }
 
 .sub1-placeholder {
-    width: 50%;
-    height: 150px;
-    background-color: #6D747D;
-    color: white;
-    display: flex;
-    font-size: 14px;
-    justify-content: center;
-    align-items: center;
+  width: 700px;
+  height: 200px;
+  background-color: #6d747d;
+  color: white;
+  display: flex;
+  font-size: 14px;
+  justify-content: center;
+  align-items: center;
 }
 
+.sub1-content {
+  color: white;
+  font-weight: 300;
+}
+
+.sub1-button {
+  color: white;
+  background-color: #3b82f6;
+  border-radius: 10px;
+  border: 0;
+  margin-top: 10px;
+  padding: 10px 30px;
+}
+
+/* Container 2 */
+.sub-container2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 50px 30px;
+  gap: 50px;
+}
+
+.sub2-title {
+  font-weight: 700;
+  font-size: 24px;
+}
+
+.sub2-list-card {
+  display: flex;
+  gap: 30px;
+}
+
+.sub2-image {
+  border: 3px solid;
+  width: 140px;
+  height: 140px;
+  border-radius: 15px;
+  border-color: #3b82f6;
+}
+
+.sub2-text {
+  font-size: 14px;
+  font-weight: 300;
+  width: 140px;
+}
+
+.sub2-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  gap: 10px;
+}
+
+/* Container 3 */
+
+.sub-container3 {
+  display: flex;
+  background-color: #e5e7eb;
+  height: 280px;
+  padding: 0px 150px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.sub3-text {
+  font-style: italic;
+  font-size: 23px;
+  font-weight: 300;
+  width: 50%;
+}
+
+.sub3-author {
+  font-weight: bold;
+  margin: 0;
+  padding: 0;
+  width: 50%;
+}
+
+/* Container 4 */
+
+.sub-container4 {
+  display: flex;
+  height: 250px;
+  justify-content: center;
+  align-items: center;
+}
+
+.sub4-box {
+  background-color: #3b82f6;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 30px 60px;
+  gap: 30px;
+  border-radius: 5px;
+}
+
+.sub4-button {
+  background-color: #3b82f6;
+  border: solid 1px;
+  border-color: white;
+  color: white;
+  border-radius: 5px;
+  padding: 5px 20px;
+  cursor: pointer;
+}
+
+.sub4-list-text {
+  color: white;
+  width: 400px;
+}
+
+.sub4-title {
+  font-weight: bold;
+}
+
+.sub4-text {
+  font-size: 12px;
+  font-weight: 200;
+  margin-top: 5px;
+}
+
+/* footer */
+.footer {
+  background-color: #1f2937;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 50px;
+  font-size: 12px;
+  font-weight: 300;
+}

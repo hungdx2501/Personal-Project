@@ -1,0 +1,17 @@
+@font-face {
+  font-family: "Norse";
+  src: url("./res/Norse-Bold.otf") format("opentype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+body {
+  display: flex;
+  height: 100vh;
+}
+
+.bg-img {
+  height: 100vh;
+  width: 50%;
+  object-fit: cover;
+}
