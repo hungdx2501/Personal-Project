@@ -56,8 +56,14 @@ button {
 .popup-modal.show {
   opacity: 100%;
   pointer-events: all;
+  top: 50%;
 }
 
 .backdrop.show {
   opacity: 30%;
+}
+
+.popup-modal {
+  transition: transform 0.5s, opacity 0.25s, top 0.25s;
+  top: 25%;
 }
